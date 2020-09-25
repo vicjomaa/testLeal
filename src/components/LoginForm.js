@@ -1,4 +1,9 @@
 import React, { Fragment } from 'react';
+
+/**
+Componente para iniciar el login con email y contraseña
+ */
+
 class LoginForm extends React.Component{
     render(){     
         return(

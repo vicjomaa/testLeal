@@ -1,5 +1,11 @@
 import React,{Fragment} from 'react';
 
+
+/**
+Componente encargado de recoger la información que filtra las transacciones
+ */
+
+
 class SearchBox extends React.Component{
 
     render(){

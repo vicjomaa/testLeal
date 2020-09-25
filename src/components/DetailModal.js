@@ -1,6 +1,12 @@
 import React from 'react';
 import Modal from './Modal';
 
+
+/**
+ Modal de visualiación en detalle de la transacción
+ */
+
+
 function DetailModal(props) {
 
   var dateFull = props.transaction.createdDate.split(/[T,.]+/);

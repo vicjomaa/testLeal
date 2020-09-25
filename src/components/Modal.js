@@ -2,6 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import '../styles/Modal.css'
 
+/**
+Estructura de visualización de modals
+ */
+
+
 function Modal(props) {
   if (!props.isOpen) {
     return null;

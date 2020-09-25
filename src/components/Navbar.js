@@ -4,6 +4,9 @@ import '../styles/Navbar.css';
 import logo from '../images/logo.png';
 
 
+/**
+Header de las paginas
+ */
 
 class Navbar extends React.Component{
     dropdown =() => {

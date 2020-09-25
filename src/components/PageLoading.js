@@ -3,6 +3,11 @@ import '../styles/PageLoading.css';
 import Loader from './Loader';
 
 
+/**
+Función para la visualización en los estados donde el estado loading es verdadero
+ */
+
+
 function PageLoading() {
         return(
             <React.Fragment>

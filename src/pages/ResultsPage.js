@@ -7,6 +7,11 @@ import Modal from '../components/Modal';
 import Swal from 'sweetalert2/dist/sweetalert2';
 import PageLoading from '../components/PageLoading';
 
+
+/**
+Página encargada de mostrar resultados de las transacciones del usuario
+ */
+
 class PageResult extends  React.Component{
 
     

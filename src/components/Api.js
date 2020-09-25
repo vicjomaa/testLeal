@@ -13,17 +13,13 @@ const simulateNetworkLatency = (min = 30, max = 1500) =>
 
 async function callApi(endpoint, options = {}) {
   await simulateNetworkLatency();
-
   options.headers = {
     'Content-Type': 'application/json',
     Accept: 'application/json',
   };
-
   const url = BASE_URL+ endpoint;
   const response = await fetch(url, options);
   const data = await response.json();
-
-
   return data;
 }
 
@@ -41,16 +37,12 @@ async function callApiXML(endpoint, method, jwtoken) {
             resolve(JSON.parse(xhr.responseText));
         } else {
             reject(status);
-        }
-                   
-
+        }                  
     };
     xhr.send();
 });
 
 }
-
-
 
 const api = {
   users: {

@@ -1,5 +1,9 @@
-const BASE_URL = 'https://pruebatecnica.puntosleal.com';
 
+/**
+ Este componente contiene las funciones que ejecutan los servicios de login y levantar información de las transacciones
+ */
+
+const BASE_URL = 'https://pruebatecnica.puntosleal.com';
 
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 const randomNumber = (min = 0, max = 1) =>

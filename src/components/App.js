@@ -4,6 +4,11 @@ import LoginPage from '../pages/LoginPage';
 import ResultsPage from '../pages/ResultsPage';
 import NotFound from '../pages/NotFound';
 import Layout from './Layout';
+import PropTypes from 'prop-types';
+
+/**
+ Este componente gestiona la visualización de las páginas  y las direcciones de acceso
+ */
 
 
 function App(){
@@ -21,4 +26,9 @@ function App(){
     
 }
 
+App.propTypes={
+    LoginPage:"Página de login",
+    ResultsPage:"Página de transacciones",
+    NotFound:"Página no encontrada"
+};
 export default App;

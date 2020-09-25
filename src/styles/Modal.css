@@ -1,0 +1,47 @@
+.modal-container{
+    display: flex ;
+    margin: auto ;
+    flex-direction: column ;
+    padding: 1.25em ;
+    width: 32em;
+    border: none ;
+    border-radius: .3125em ;
+    height: auto ;
+    
+}
+.modal-back{
+    overflow-y: auto;
+    background: rgba(0,0,0,.4);
+    display: flex;
+    position: fixed;
+    z-index: 1060;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: .625em;
+    overflow-x: hidden;
+    transition: background-color .1s;
+}
+
+.modal-header-v {
+    align-items: flex-start;
+    justify-content: space-between;
+    text-align: center;
+    padding: 1rem 1rem;
+    border-top-left-radius: calc(0.3rem - 1px);
+    border-top-right-radius: calc(0.3rem - 1px);
+}
+
+.modal-footer-v {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0.75rem;
+    border-bottom-right-radius: calc(0.3rem - 1px);
+    border-bottom-left-radius: calc(0.3rem - 1px);
+}

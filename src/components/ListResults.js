@@ -2,6 +2,11 @@ import React, { Fragment } from 'react';
 import '../styles/ListResults.css'
 import DetailModal from './DetailModal';
 
+/**
+Componente encargado de mostrar el  historial de transacciones en formato tabla con elementos 
+interactuables que despliegan en un modal el detalle de la transacción
+ */
+
 class ListResults extends React.Component{
 
 

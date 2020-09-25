@@ -3,7 +3,7 @@ import Navbar from './Navbar';
 
 
 /**
-Estructura del render de las páginas
+Estructura general del render de las páginas
  */
 
 

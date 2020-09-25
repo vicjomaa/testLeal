@@ -1,10 +1,10 @@
 /**
  * [someFunction description]
- * @param  {[obj]} transaction [Historial completo de transacciones]
- * @param  {[int]} startDateG [Fecha desde]
- * @param {[int]}  endDateGT    [Fecha Hasta]
- * @param {[string]}  description   [Filtro por texto]
- * @return {[obj]}   transactionShow   [Historial de transaccioens filtrado]
+ * @param  {obj} transaction [Historial completo de transacciones]
+ * @param  {int} startDateG [Fecha desde]
+ * @param {int}  endDateGT    [Fecha Hasta]
+ * @param {string}  description   [Filtro por texto]
+ * @return {obj}   transactionShow   [Historial de transaccioens filtrado]
  */
 
 
